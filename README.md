@@ -1,47 +1,8 @@
 # Messenger UI
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![StyleCI][ico-styleci]][link-styleci]
-[![License][ico-license]][link-license]
-
----
-
-![Preview](https://raw.githubusercontent.com/RTippin/messenger/1.x/docs/images/image1.png?raw=true)
-
----
-
-## Ready-made UI and web routes for use with [rtippin/messenger][link-messenger]
-
-### Notes
-- This package provides web routes and a published UI to consume `messenger's` API. No authentication routes/system will be setup for you.
-- Our compiled `NotifyManager.js` uses laravel echo, with the `pusher-js` library. 
-- For websockets, this package supports [pusher.com][link-pusher] directly, or the drop-in replacement [laravel-websockets][link-laravel-websockets].
-  - Instructions are located below for setting up the websocket implementation of your choosing.
-- After publishing our `views`, you may wish to edit them to fit your needs.
-- Future versions planned will be crafted in `react`.
-
----
 
 # Installation
 
-### Via Composer
-
-``` bash
-composer require rtippin/messenger-ui
-```
-
-### Publish Assets and Config
-- This will publish our JS assets, images, views, and config.
-```bash
-php artisan messenger:ui:publish
-```
-- When using composer to update this package, we recommend republishing our JS/CSS assets:
-```bash
-php artisan vendor:publish --tag=messenger-ui.assets --force
-```
-
----
 
 # Config
 
