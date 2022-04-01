@@ -1,19 +1,4 @@
 {
     "name": "hrishi072/messenger-ui",
-    "type": "library",
-    "description": "Laravel messenger suite UI.",
-    "license": "MIT",
-    "require": {
-        "rtippin/messenger": "^1.19"
-    },
-    "autoload": {
-        "psr-4": {
-            "RTippin\\MessengerUi\\": "src/"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "type": "library"
 }
