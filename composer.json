@@ -1,4 +1,17 @@
 {
-    "name": "hrishi072/messenger-ui",
-    "type": "library"
+    "name": "hrishi/messenger-ui",
+    "require": {
+        "rtippin/messenger": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hrishi\\MessengerUi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hrishi072",
+            "email": "parundekarrushi@gmail.com"
+        }
+    ]
 }
