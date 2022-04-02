@@ -1,5 +1,6 @@
 {
     "name": "hrishi/messenger-ui",
+    "version": "1.0",
     "require": {
         "rtippin/messenger": "^1.19"
     },
